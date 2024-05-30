@@ -1,1 +1,1 @@
-
+Please write a simple java program (DON't use OOPS concept) for caluculating the expenses monthly and yearly
