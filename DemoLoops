@@ -1,0 +1,68 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.day1project;
+
+/**
+ *
+ * @author dinesh
+ */
+public class DemoLoops {
+    
+    
+    public static void main(String args[]){
+        
+        //While Loop
+        
+         int counter = 10;
+         
+         while(counter<10)  //condition for expression
+         {
+             System.out.println(counter);  //stmt to be executed
+             counter = counter +1;
+         }
+        
+        //Do While
+        
+         int doWhileCounter =10;
+         
+          do//condition for expression
+         {
+             System.out.println("dowhile"+doWhileCounter);  //stmt to be executed
+             doWhileCounter = doWhileCounter +1;
+         } while(doWhileCounter<10);
+          
+     
+          
+        
+        //For loop
+        
+        
+        for(int forCounter = 0; forCounter < 10;forCounter++){
+               System.out.println("forCounter"+forCounter);
+        }
+        
+        
+        //Iterator & for each loop (Data striuctures - array list hash map)
+        
+        
+        //break; exit from the iteration
+        
+         for(int forCounter = 0; forCounter < 10;forCounter++){
+             
+             if(forCounter == 2) break;
+              System.out.println("forCounter break"+forCounter);
+        }
+        
+        
+        
+        //continue skip the block of code
+        
+            for(int forCounter = 0; forCounter < 10;forCounter++){
+             
+             if(forCounter == 2) continue;
+              System.out.println("forCounter continue"+forCounter);
+        }
+    }
+}
