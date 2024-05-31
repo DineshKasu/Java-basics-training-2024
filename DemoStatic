@@ -1,0 +1,37 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.day1project;
+
+/**
+ *
+ * @author dinesh
+ */
+public class DemoStatic {
+    
+       
+    //static variables & methods -- class level
+    
+    
+    public String carModel;
+    public int year;
+    public static String color;
+    
+    
+        public static void main(String args[]){
+        
+            DemoStatic mynewCar  = new DemoStatic();
+            mynewCar.carModel ="TeslaX";
+            mynewCar.year =2023;
+            DemoStatic.color ="Blue";
+            
+            System.out.println(mynewCar.carModel);
+             System.out.println(mynewCar.year);
+              System.out.println(mynewCar.color);
+                    
+            
+            
+        }
+    
+}
