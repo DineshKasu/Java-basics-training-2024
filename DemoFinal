@@ -1,0 +1,18 @@
+public class DemoFinal {
+    
+   public static final String carModel = "TeslaY";
+   
+   
+   public static void main(String args[]){
+       
+       DemoFinal mycarObj = new DemoFinal();
+      // mycarObj.carModel = "TeslaX";   throws error as  we cant assign value to final variable
+       
+   }
+    
+   
+   //final method --No override (parent child)
+          
+   
+   
+}
